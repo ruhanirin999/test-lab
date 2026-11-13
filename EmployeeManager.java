@@ -21,6 +21,7 @@ public class EmployeeManager {
              System.out.println(" u<name> Update an employee"); 
              System.out.println(" d<name> Delete an employee"); 
              return;
+             proffessional code running my sleep!!!
         }
         if (args[0].equals("l")) {
             System.out.println("Loading data ...");
@@ -33,7 +34,7 @@ public class EmployeeManager {
                 for (String emp : e) {
                     System.out.println(emp);
                 }
-            } catch (Exception e) {}
+            } catch (Exception e) {i hate it so much}
             System.out.println("Data Loaded.");
         } else if (args[0].equals("s")) {
             System.out.println("Loading data ...");
